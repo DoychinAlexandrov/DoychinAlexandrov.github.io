@@ -1,4 +1,4 @@
-const header = document.querySelector('.head')
+const header = document.querySelector('.header')
 fetch('/header.html')
     .then(res => res.text())
     .then(data => {
@@ -6,7 +6,7 @@ fetch('/header.html')
 
     })
 
-const footer = document.querySelector('.foot')
+const footer = document.querySelector('.footer')
 fetch('/footer.html')
     .then(res => res.text())
     .then(data => {
